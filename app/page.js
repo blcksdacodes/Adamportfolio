@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import photo from "../public/images/photo.png"
+import skills from "../public/images/skills.png"
 import background from "../public/images/background.jpeg"
 import Head from 'next/head'
 
@@ -23,14 +24,14 @@ export default function Home() {
           </div>
         </div>
         <div className='mt-2 w-full h-[10px] bg-zinc-950 bg-opacity-60'></div>
-        <div className='h-[500px] mt-20 mr-10 ml-10 grid grid-cols-3 gap-10 rounded-lg content-center'>
+        <div className='adamintro h-[500px] mt-20 mr-10 ml-10 grid grid-cols-3 gap-10 rounded-lg content-center'>
             <div>
               <div className="ml-10 w-[400px] h-[400px]">
                 <Image  className = 'object-contain bg-zinc-950 bg-opacity-60 border-8 border-yellow-500 rounded-full w-[400px] h-[400px] shadow-2xl' src ={photo}></Image>
               </div>
             </div>
             <div className='w-[700px] border-8 border-yellow-500 bg-zinc-950 bg-opacity-60 backdrop-blur-md col-span-2 rounded-lg shadow-2xl justify-center mr-10'>
-              <h1 className='ml-5 mt-5 font-silk text-2xl font-bold text-yellow-500'>FACHRI ADAM</h1>
+              <h1 className='ml-5 mt-5 font-silk text-2xl font-bold text-yellow-500'>MEET FACHRI ADAM!</h1>
               <p className='ml-5 mt-5 font-sc-code mr-20 text-slate-50'>
                 Fresh graduated from Universitas Bina Nusantara with 1 year of working experience as a
                 coding teacher and graphic designer for Kodekiddo. Intermediate in programming
@@ -42,24 +43,36 @@ export default function Home() {
             </div>
         </div>
       </section>
-      <section className="h-[600px] w[600px] mr-10 mt-20 ml-10 grid grid-cols-3 gap-15 items-center rounded-[5%]">
-        <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:h-[600px] hover:w-[600px] hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-300">
-          <div className="ml-5 mt-5 mb-5 mr-5">
+      <section className="h-[600px] w[600px] mr-10 mt-20 ml-10 grid grid-cols-3 gap-15 justify-center items-center rounded-[5%]">
+        <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
+          <div className="items-center ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">SKILLS</h1>
+            <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute h-[300px] w-[300px] ml-20 mt-10">
+              <Image  className = '' src ={skills}></Image>
+            </div>
+            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through character's progression. It is very valuable to
+              tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
+              easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
+              sets of skills through his journey. You can click on the 'View' button below to check out all of his
+              skills
+            </p>
+            <div className="flex justify-center items-center">
+              <button href="#skillsection" className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg">VIEW</button>
+            </div>
           </div>
         </div >
-        <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:h-[600px] hover:w-[600px] hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-300">
+        <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
           <div className="ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">EXPERIENCE</h1>
           </div>
         </div>
-         <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:h-[600px] hover:w-[600px] hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-300">
+         <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
           <div className="ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">CERTIFICATES</h1>
           </div>
         </div>
       </section>
-      <section className="bg-blue-500 h-[400px] ml-10 mr-10 shadow-2xl mt-20">
+      <section id="skillsection"className="bg-blue-500 h-[400px] ml-10 mr-10 shadow-2xl mt-20">
         <div>
           
         </div>
