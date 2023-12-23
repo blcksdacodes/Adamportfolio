@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import photo from "../public/images/photo.png"
 import skills from "../public/images/skills.png"
+import xp from "../public/images/experience.png"
+import cert from "../public/images/cert.png"
 import background from "../public/images/background.jpeg"
 import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="background bg-custom-image z-1 bg-fixed bg-cover bg-no-repeat">
+    <div className="scroll-smooth background bg-custom-image z-1 bg-fixed bg-cover bg-no-repeat">
       <Head>
       </Head>
       <section className='w-full'>
@@ -57,18 +59,42 @@ export default function Home() {
               skills
             </p>
             <div className="flex justify-center items-center">
-              <button href="#skillsection" className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg">VIEW</button>
+              <button href="#skillsection" className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">VIEW</button>
             </div>
           </div>
         </div >
         <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
           <div className="ml-5 mt-5 mb-5 mr-5">
-            <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">EXPERIENCE</h1>
+            <h1 className="justify-center items-center font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">EXPERIENCE</h1>
+            <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute z-1 h-[350px] w-[350px] ml-20 mt-10">
+              <Image alt="experienceimage" src ={xp}></Image>
+            </div>
+            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through characters progression. It is very valuable to
+              tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
+              easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
+              sets of skills through his journey. You can click on the View button below to check out all of his
+              skills
+            </p>
+            <div className="flex justify-center items-center">
+              <button className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
+            </div>
           </div>
         </div>
          <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
           <div className="ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">CERTIFICATES</h1>
+            <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute z-1 h-[350px] w-[350px] ml-20 mt-10">
+              <Image alt="certimage" src ={cert}></Image>
+            </div>
+            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through characters progression. It is very valuable to
+              tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
+              easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
+              sets of skills through his journey. You can click on the View button below to check out all of his
+              skills
+            </p>
+            <div className="flex justify-center items-center">
+              <button className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
+            </div>
           </div>
         </div>
       </section>
