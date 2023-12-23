@@ -50,10 +50,10 @@ export default function Home() {
             <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute h-[300px] w-[300px] ml-20 mt-10">
               <Image alt="skillimage" src ={skills}></Image>
             </div>
-            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through character's progression. It is very valuable to
+            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through characters progression. It is very valuable to
               tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
               easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
-              sets of skills through his journey. You can click on the 'View' button below to check out all of his
+              sets of skills through his journey. You can click on the "View" button below to check out all of his
               skills
             </p>
             <div className="flex justify-center items-center">
