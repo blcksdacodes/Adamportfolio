@@ -27,7 +27,7 @@ export default function Home() {
         <div className='adamintro h-[500px] mt-20 mr-10 ml-10 grid grid-cols-3 gap-10 rounded-lg content-center'>
             <div>
               <div className="ml-10 w-[400px] h-[400px]">
-                <Image  className = 'object-contain bg-zinc-950 bg-opacity-60 border-8 border-yellow-500 rounded-full w-[400px] h-[400px] shadow-2xl' src ={photo}></Image>
+                <Image  alt="photoimage" className = 'object-contain bg-zinc-950 bg-opacity-60 border-8 border-yellow-500 rounded-full w-[400px] h-[400px] shadow-2xl' src ={photo}></Image>
               </div>
             </div>
             <div className='w-[700px] border-8 border-yellow-500 bg-zinc-950 bg-opacity-60 backdrop-blur-md col-span-2 rounded-lg shadow-2xl justify-center mr-10'>
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="items-center ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">SKILLS</h1>
             <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute h-[300px] w-[300px] ml-20 mt-10">
-              <Image  className = '' src ={skills}></Image>
+              <Image alt="skillimage" src ={skills}></Image>
             </div>
             <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through character's progression. It is very valuable to
               tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
