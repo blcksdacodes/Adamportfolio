@@ -45,7 +45,7 @@ export default function Home() {
             </div>
         </div>
       </section>
-      <section className="h-[600px] w[600px] mr-10 mt-20 ml-10 grid grid-cols-3 gap-15 justify-center items-center rounded-[5%]">
+      <section className="adamintro h-[600px] w[600px] mr-10 mt-20 ml-10 grid grid-cols-3 gap-15 justify-center items-center rounded-[5%]">
         <div className="group hover:border-8  h-[550px] w-[550px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
           <div className="items-center ml-5 mt-5 mb-5 mr-5">
             <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">SKILLS</h1>
@@ -53,13 +53,11 @@ export default function Home() {
               <Image alt="skillimage" src ={skills}></Image>
             </div>
             <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through characters progression. It is very valuable to
-              tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
-              easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
-              sets of skills through his journey. You can click on the View button below to check out all of his
-              skills
+              help a character go thorugh obstacles in the future, as well as solving some problems that a character might face. It is not always
+              easy to obtain as a character has to go through a lot of training and hard work. You can view the sets of skills Adam has by clicking the View button below.
             </p>
             <div className="flex justify-center items-center">
-              <button href="#skillsection" className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">VIEW</button>
+              <button href="#skillsection" className="mt-20 invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">VIEW</button>
             </div>
           </div>
         </div >
@@ -69,14 +67,12 @@ export default function Home() {
             <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 absolute z-1 h-[350px] w-[350px] ml-20 mt-10">
               <Image alt="experienceimage" src ={xp}></Image>
             </div>
-            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">Skills are obtained through characters progression. It is very valuable to
-              tackle some obstacles in the future, as well as solving some problems that a character might face. It is not always
-              easy to obtain as a character has to go through a lot of training and hard work. Adam has learned
-              sets of skills through his journey. You can click on the View button below to check out all of his
-              skills
+            <p className="text-center group-hover:visible invisible mt-10 font-sc-code font-bold mb-10 mr-10 ml-10 transition-all">
+              Experience is a result of knowledge, skills, and abilities gained through journey and challenges, which helps a character grow stronger and more capable as they progress.
+               Adam has got some experience in the past that you can view by clicking the View button below.
             </p>
             <div className="flex justify-center items-center">
-              <button className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
+              <button className="mt-20 invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
             </div>
           </div>
         </div>
@@ -93,12 +89,33 @@ export default function Home() {
               skills
             </p>
             <div className="flex justify-center items-center">
-              <button className="invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
+              <button className="mt-20 invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 z-50 rounded-lg">VIEW</button>
             </div>
           </div>
         </div>
       </section>
-      <section id="skillsection"className="bg-blue-500 h-[400px] ml-10 mr-10 shadow-2xl mt-20">
+      <section id="skillsection" className="backdrop-blur-lg bg-zinc-950 bg-opacity-[70%] h-[1000px] ml-5 mr-5 shadow-2xl mt-20 rounded-[5%]">
+        <div className='mt-20'>
+          <br/>
+          <br/>
+          <h1 className='ml-20 mr-40 font-silk text-4xl font-bold text-slate-50'>"Skills are the threads that weave the fabric of mastery, stitched together by dedication and honed through relentless practice."</h1>
+          <div className="mr-10 ml-10 mt-10 h-[800px] grid grid-cols-2 gap-4">
+            <div className="bg-yellow-500 rounded-[2%] border-8 border-zinc-950 border-opacity-80">
+              <h1>halo</h1>
+            </div>
+            <div className="bg-yellow-500 rounded-[2%] border-8 border-zinc-950 border-opacity-80">
+              <h1>halo</h1>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="skillsection" className="bg-blue-500 h-[1000px] ml-10 mr-10 shadow-2xl mt-20">
+        <div>
+          
+        </div>
+      </section>
+      <section id="skillsection" className="bg-blue-500 h-[1000px] ml-10 mr-10 shadow-2xl mt-20">
         <div>
           
         </div>
