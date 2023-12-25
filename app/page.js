@@ -118,14 +118,14 @@ function Home() {
 
 
         <div className='pt-20 px-10'>
-          <h1 className='font-silk text-5xl font-bold text-yellow-500 mb-5'>SKILLS</h1>
+          <h1 className='font-silk text-5xl font-bold text-yellow-500 mb-10'>SKILLS</h1>
           <div className='rounded-lg mb-10 bg-yellow-500 h-[10px]'>
           </div>
-          <div className='italic w-full font-sc-code text-xl font-bold text-slate-50 mb-5'>
+          <div className='max-[400px]:w-[200px] max-[460px]:w-[300px] max-[855px]:w-[400px] w-[650px] italic w-full font-sc-code text-xl font-bold text-slate-50 mb-10'>
             <p>"Skills are the threads that weave the fabric of mastery, stitched together by dedication and honed through relentless practice."</p>
           </div>
-          <div className="flex flex-cols flex-wrap justify-center gap-8">
-            <div className="">
+          <div className="bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap gap-20">
+            <div className="w-[1000px]">
               <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl mb-5">PROGRAMMING SKILLS</h1>
               <p className="text-slate-50 text-left justify-left font-sc-code mb-10 transition-all text-lg">
                 Being a computer science graduate, Adam learned programming technical skills. He started learning
@@ -136,7 +136,7 @@ function Home() {
                 programming skills proficiency.
               </p>
             </div>
-            <div className="border-8 border-yellow-500 w-[700px] bg-yellow-500 bg-opacity-50 rounded-lg">
+            <div className="w-[700px] border-8 border-yellow-500 bg-yellow-500 bg-opacity-50 rounded-lg">
               <div className="left-10">
                 <h1 className="mt-5 ml-10 text-left font-silk text-3xl font-bold text-slate-50">PROFICIENCY:</h1>
                 <h1 className="ml-10 text-left font-silk text-3xl font-bold text-zinc-950">PROGRAMMING LANGUAGE</h1>
@@ -203,8 +203,8 @@ function Home() {
         </div>
 
         <div className='pt-20 px-10'>
-          <div className="mt-10 flex flex-cols flex-wrap justify-center gap-8">
-            <div className="">
+          <div className="bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap gap-20">
+            <div className="w-[1000px]">
               <h1 className="mb-5 text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl">DESIGN SKILLS</h1>
               <p className="text-slate-50 text-left justify-left font-sc-code mb-10 transition-all">
                 Being a computer science graduate, Adam learned programming technical skills. He started learning
