@@ -61,7 +61,8 @@ function Home() {
               <div className="max-[340px]:mt-5 transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[350px] max-h-[350px] ml-6">
                 <Image alt="skillimage" src ={skills}></Image>
               </div>
-              <p className="max-[340px]:-mt-[230px] max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[300px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">Skills are obtained through characters progression. It is very valuable to
+              <p className="max-[340px]:-mt-[230px] max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[300px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
+                Obtained through characters progression. It is very valuable to
                 help a character go thorugh obstacles in the future, as well as solving some problems that a character might face.
               </p>
               <div className="flex justify-center items-center">
@@ -101,7 +102,7 @@ function Home() {
                 <Image alt="skillimage" src ={cert}></Image>
               </div>
               <p className="max-[340px]:-mt-[230px] max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[320px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
-                A result of knowledge, skills, and abilities gained through journey and challenges, which helps a character grow stronger and more capable as they progress.
+                An official document or statement that confirms qualifications, achievements, or completion of a course, program, or requirements.
               </p>
               <div className="flex justify-center items-center">
                 <a href="#skillsection" className="max-[340px]:mt-[20px] max-[470px]:-mt-[30px] -mt-[100px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
