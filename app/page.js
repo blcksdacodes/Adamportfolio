@@ -55,17 +55,17 @@ function Home() {
           
            {/*SKILLS */}
 
-          <div className="group hover:border-8  h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
+          <div className="max-[470px]:w-[350px] group hover:border-8  h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
             <div className="items-center ml-5 mt-5 mb-5 mr-5">
-              <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">SKILLS</h1>
+              <h1 className="max-[470px]:text-4xl font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">SKILLS</h1>
               <div className="transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[350px] max-h-[350px] ml-6">
                 <Image alt="skillimage" src ={skills}></Image>
               </div>
-              <p className="pr-4 absolute -mt-[300px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">Skills are obtained through characters progression. It is very valuable to
+              <p className="max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[300px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">Skills are obtained through characters progression. It is very valuable to
                 help a character go thorugh obstacles in the future, as well as solving some problems that a character might face.
               </p>
               <div className="flex justify-center items-center">
-                <a href="#skillsection" className="-mt-[100px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
+                <a href="#skillsection" className=" max-[470px]:-mt-[10px] -mt-[100px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
                   VIEW
                 </a>
               </div>
@@ -74,18 +74,18 @@ function Home() {
 
              {/*XP  */}
 
-          <div className="group hover:border-8 h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
+          <div className="max-[470px]:w-[350px] group hover:border-8 h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
             <div className="items-center ml-5 mt-5 mb-5 mr-5">
-              <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">EXPERIENCES</h1>
-              <div className="mt-5 ml-[32px] transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[320px] max-h-[320px]">
+              <h1 className="max-[470px]:text-4xl font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">EXPERIENCES</h1>
+              <div className="max-[470px]:ml-[10px] max-[470px]:mr-[10px] mt-5 ml-[32px] transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[320px] max-h-[320px]">
                 <Image alt="skillimage" src ={xp}></Image>
               </div>
-              <p className="pr-4 absolute -mt-[280px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
+              <p className="max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[280px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
                 A result of knowledge, skills, and abilities gained through journey and challenges, which helps a character grow stronger and more capable as they progress.
                 
               </p>
               <div className="flex justify-center items-center">
-                <a href="#skillsection" className="-mt-[50px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
+                <a href="#skillsection" className="max-[470px]:-mt-[30px] -mt-[50px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
                   VIEW
                 </a>
               </div>
@@ -94,17 +94,17 @@ function Home() {
 
             {/*CERT */}
 
-          <div className="group hover:border-8  h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
+          <div className="max-[470px]:w-[350px] group hover:border-8  h-[420px] w-[420px] bg-zinc-950 bg-opacity-60 backdrop-blur-md rounded-[5%] shadow-2xl hover:ease-out hover:bg-yellow-500 hover:border-zinc-950 hover:bg-opacity-60 transition-all duration-150">
             <div className="items-center ml-5 mt-5 mb-5 mr-5">
-              <h1 className="font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">CERTIFICATES</h1>
-              <div className="ml-[15px] transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[350px] max-h-[350px]">
+              <h1 className="max-[470px]:text-4xl font-silk text-5xl text-center text-slate-50 group-hover:text-zinc-950 transition-all duration-300">CERTIFICATES</h1>
+              <div className="max-[470px]:mt-5 max-[470px]:ml-[10px] max-[470px]:mr-[10px] ml-[15px] transition-all duration-100 group-hover:ease-out group-hover:opacity-0 max-w-[350px] max-h-[350px]">
                 <Image alt="skillimage" src ={cert}></Image>
               </div>
-              <p className="pr-4 absolute -mt-[320px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
+              <p className="max-[470px]:-mt-[250px] max-[470px]:text-left pr-4 absolute -mt-[320px] text-lg text-justify group-hover:visible invisible font-sc-code font-bold transition-all">
                 A result of knowledge, skills, and abilities gained through journey and challenges, which helps a character grow stronger and more capable as they progress.
               </p>
               <div className="flex justify-center items-center">
-                <a href="#skillsection" className="-mt-[100px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
+                <a href="#skillsection" className="max-[470px]:-mt-[30px] -mt-[100px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
                   VIEW
                 </a>
               </div>
