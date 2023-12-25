@@ -21,9 +21,13 @@
     }
   }
 
-  .adamintro{
-    animation: fade-down 2s
-  }
+.adamintro{
+  animation: fade-down 2s
+}
+
+.scrollable{
+  scroll-behavior: smooth;
+}
 
 
 
