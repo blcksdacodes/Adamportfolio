@@ -3,6 +3,14 @@ import photo from "../public/images/photo.png"
 import skills from "../public/images/skills.png"
 import xp from "../public/images/experience.png"
 import cert from "../public/images/cert.png"
+import java from "../public/images/java.png"
+import python from "../public/images/python.png"
+import html from "../public/images/html.png"
+import css from "../public/images/css.png"
+import js from "../public/images/js.png"
+import c from "../public/images/c.png"
+import sql from "../public/images/sql.png"
+import next from "../public/images/nextjs.png"
 import background from "../public/images/background.jpeg"
 import Head from 'next/head'
 
@@ -104,7 +112,7 @@ function Home() {
             <div className='rounded-lg mb-10 ml-20 mr-20 bg-yellow-500 h-[10px]'>
             </div>
             <p className='italic w-[900px] ml-20 mr-40 font-sc-code text-2xl font-bold text-slate-50'>"Skills are the threads that weave the fabric of mastery, stitched together by dedication and honed through relentless practice."</p>
-            <div className="mr-10 ml-10 mt-10 h-[400px] grid grid-cols-2 gap-8">
+            <div className="mr-10 ml-10 mt-10 grid grid-cols-2 gap-8">
               <div className="">
                 <h1 className="ml-10 mb-5 text-left font-silk text-5xl font-bold text-yellow-500">PROGRAMMING SKILLS</h1>
                 <p className="text-slate-50 text-left justify-left font-sc-code mb-10 mr-10 ml-10 transition-all">
@@ -114,39 +122,50 @@ function Home() {
                   combining his design skills and programming skills by learning front-end programming through HTML & CSS as well as Javascript while
                   using different kinds of frameworks along the way. Additionally, he also gained database skills while learning to manage his project database using SQL. These are the summaries of his 
                   programming skills proficiency.
-              </p>
+                </p>
               </div>
-              <div className="w-[700px] bg-yellow-500 bg-opacity-50 rounded-lg">
+              <div className="border-8 border-yellow-500 w-[700px] bg-yellow-500 bg-opacity-50 rounded-lg">
                 <div className="left-10">
-                  <h1 className="mt-5 ml-10 text-left font-silk text-3xl font-bold text-zinc-950">PROFICIENCY:</h1>
+                  <h1 className="mt-5 ml-10 text-left font-silk text-3xl font-bold text-slate-50">PROFICIENCY:</h1>
+                  <h1 className="ml-10 text-left font-silk text-3xl font-bold text-zinc-950">PROGRAMMING LANGUAGE</h1>
                   <ul className="mr-10 ml-10 mt-5 list-indside">
                     <li>
-                      <div className="grid grid-cols-2 gap-20 h-[100px]">
-                        <div className="bg-slate-50 h-[50px]">
-                        <h1>ini buat Java</h1>
+                      <div className="grid grid-cols-2 gap-8 h-[100px]">
+                        <div className="h-[100px] w-[100px]">
+                            <Image alt="javaimage" className="" src ={java}></Image>
                         </div>
-                        <div className="bg-slate-500 h-[50px]">
-                        <h1>ini buat Python</h1>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="grid grid-cols-2 gap-20 h-[100px]">
-                        <div className="bg-slate-50 h-[50px]">
-                        <h1>ini buat HTML</h1>
-                        </div>
-                        <div className="bg-slate-500 h-[50px]">
-                        <h1>ini buat CSS</h1>
+                        <div className="h-[90px] w-[90px]">
+                            <Image alt="pythonimage" className="" src ={python}></Image>
                         </div>
                       </div>
                     </li>
                     <li>
-                      <div className="grid grid-cols-2 gap-20 h-[100px]">
-                        <div className="bg-slate-50 h-[50px]">
-                        <h1>ini buat Javascript</h1>
+                      <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
+                        <div className="h-[65px] w-[65px]">
+                            <Image alt="htmlimage" className="ml-6" src ={html}></Image>
                         </div>
-                        <div className="bg-slate-500 h-[50px]">
-                        <h1>ini buat C</h1>
+                        <div className="h-[65px] w-[65px]">
+                            <Image alt="cssimage" className="" src ={css}></Image>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
+                        <div className="h-[65px] w-[65px]">
+                            <Image alt="jsimage" className="ml-6" src ={js}></Image>
+                        </div>
+                        <div className="h-[70px] w-[70px]">
+                            <Image alt="c-image" className="" src ={c}></Image>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
+                        <div className="h-[70px] w-[70px]">
+                            <Image alt="sqlimage" className="ml-6" src ={sql}></Image>
+                        </div>
+                        <div className="h-[750px] w-[75px]">
+                            <Image alt="next-image" className="" src ={next}></Image>
                         </div>
                       </div>
                     </li>
