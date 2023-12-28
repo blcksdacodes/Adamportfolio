@@ -127,7 +127,7 @@ function Home() {
           <div className="bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap gap-20">
             <div className="w-[1000px]">
               <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl mb-5">PROGRAMMING SKILLS</h1>
-              <p className="text-slate-50 text-left justify-left font-sc-code mb-10 transition-all text-lg">
+              <p className="max-[650px]:text-sm text-slate-50 text-left justify-left font-sc-code mb-10 transition-all text-lg">
                 Being a computer science graduate, Adam learned programming technical skills. He started learning
                 programming by learning C++ and C language in his first semester of college year. Adam then got more hooked
                 and more interested, he got into learning Java and Python. He also has a passion for designs and started
@@ -136,20 +136,20 @@ function Home() {
                 programming skills proficiency.
               </p>
             </div>
-            <div className="w-[700px] border-8 border-yellow-500 bg-yellow-500 bg-opacity-50 rounded-lg">
+            <div className="border-8 border-yellow-500 bg-yellow-500 bg-opacity-50 rounded-lg">
               <div className="left-10">
-                <h1 className="mt-5 ml-10 text-left font-silk text-3xl font-bold text-slate-50">PROFICIENCY:</h1>
-                <h1 className="ml-10 text-left font-silk text-3xl font-bold text-zinc-950">PROGRAMMING LANGUAGE</h1>
-                <ul className="mr-10 ml-10 mt-5 list-indside">
+                <h1 className="text-center max-[650px]:text-xl max-[350px]:text-sm max-[450px]:text-md mt-5 font-silk text-3xl font-bold text-slate-50">PROFICIENCY:</h1>
+                <h1 className="text-center max-[650px]:text-xl max-[350px]:text-sm max-[450px]:text-md  font-silk text-3xl font-bold text-zinc-950">PROGRAMMING LANGUAGE</h1>
+                <ul className="mt-5 list-indside">
                   <li>
                     <div className="grid grid-cols-2 gap-8 h-[100px]">
-                      <div className="grid grid-cols-2">
-                        <div className="h-[65px] w-[65px]">
+                      <div className="">
+                        <div className="max-[1150px]:h-[45px] max-[1150px]:w-[45px] h-[65px] w-[65px]">
                             <Image alt="javaimage" className="ml-6" src ={java}></Image>
                         </div>
                       </div>
-                      <div className="grid grid-cols-2">
-                        <div className="h-[80px] w-[80px]">
+                      <div className="">
+                        <div className="max-[1150px]:h-[60px] max-[1150px]:w-[60px] h-[80px] w-[80px]">
                             <Image alt="pythonimage" className="" src ={python}></Image>
                         </div>
     
@@ -158,40 +158,40 @@ function Home() {
                   </li>
                   <li>
                     <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
-                      <div className="h-[65px] w-[65px]">
+                      <div className="max-[1150px]:h-[45px] max-[1150px]:w-[45px] h-[65px] w-[65px]">
                           <Image alt="htmlimage" className="ml-6" src ={html}></Image>
                       </div>
-                      <div className="h-[65px] w-[65px]">
+                      <div className="max-[1150px]:h-[45px] max-[1150px]:w-[45px] h-[65px] w-[65px]">
                           <Image alt="cssimage" className="" src ={css}></Image>
                       </div>
                     </div>
                   </li>
                   <li>
                     <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
-                      <div className="h-[65px] w-[65px]">
+                      <div className="max-[1150px]:h-[45px] max-[1150px]:w-[45px] h-[65px] w-[65px]">
                           <Image alt="jsimage" className="ml-6" src ={js}></Image>
                       </div>
-                      <div className="h-[70px] w-[70px]">
+                      <div className="max-[1150px]:h-[50px] max-[1150px]:w-[50px] h-[70px] w-[70px]">
                           <Image alt="c-image" className="" src ={c}></Image>
                       </div>
                     </div>
                   </li>
                   <li>
                     <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
-                      <div className="h-[70px] w-[70px]">
+                      <div className="max-[1150px]:h-[50px] max-[1150px]:w-[50px] h-[70px] w-[70px]">
                           <Image alt="sqlimage" className="ml-6" src ={sql}></Image>
                       </div>
-                      <div className="h-[750px] w-[75px]">
+                      <div className="max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
                           <Image alt="next-image" className="" src ={next}></Image>
                       </div>
                     </div>
                   </li>
                   <li>
                     <div className="grid grid-cols-2 gap-8 h-[100px] mt-5">
-                      <div className="h-[75px] w-[75px]">
+                      <div className="max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
                           <Image alt="3jsimage" className="ml-6" src ={three}></Image>
                       </div>
-                      <div className="h-[75px] w-[75px]">
+                      <div className="max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
                           <Image alt="next-image" className="" src ={next}></Image>
                       </div>
                     </div>
