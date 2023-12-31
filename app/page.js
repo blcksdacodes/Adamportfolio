@@ -92,7 +92,7 @@ function Home() {
                 
               </p>
               <div className="flex justify-center items-center">
-                <a href="#skillsection" className="max-[340px]:mt-[20px] max-[470px]:-mt-[30px] -mt-[50px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
+                <a href="#xpsection" className="max-[340px]:mt-[20px] max-[470px]:-mt-[30px] -mt-[50px] invisible group-hover:ease-out group-hover:visible transition-all items-center bg-zinc-950 hover:bg-slate-50 hover:text-zinc-950 text-yellow-500 font-bold py-2 px-6 rounded-lg z-50">
                   VIEW
                 </a>
               </div>
@@ -120,7 +120,7 @@ function Home() {
 
       </section>
 
-      <section id="skillsection" className="mb-40 pb-10 backdrop-blur-lg bg-zinc-950 bg-opacity-[70%] mx-20 shadow-2xl mt-20 rounded-[30px] max-[650px]:mx-5">
+      <section id="skillsection" className="mb-60 pb-10 backdrop-blur-lg bg-zinc-950 bg-opacity-[70%] mx-20 shadow-2xl mt-20 rounded-[30px] max-[650px]:mx-5">
 
 
         <div className='max-[400px]:px-4 pt-20 px-10'>
