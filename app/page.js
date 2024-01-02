@@ -124,7 +124,7 @@ function Home() {
 
 
         <div className='max-[400px]:px-4 pt-20 px-10'>
-          <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 mb-10">SKILLS</h1>
+          <h1 className="max-[670px]:text-3xl text-left font-silk text-6xl font-bold text-yellow-500 mb-10">SKILLS</h1>
           <div className='rounded-lg mb-10 bg-yellow-500 h-[10px]'>
           </div>
           <div className='max-[400px]:w-[200px] max-[460px]:w-[300px] max-[855px]:w-[400px] w-[650px] italic w-full font-sc-code text-xl font-bold text-slate-50 mb-10'>
@@ -209,7 +209,7 @@ function Home() {
         </div>
 
         <div className='max-[400px]:px-4 pt-20 px-10'>
-        <div className="justify-between bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[430px]:p-2 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap">
+        <div className="gap-10 justify-between bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[430px]:p-2 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap">
             <div className="w-[700px]">
               <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl mb-5">DESIGN SKILLS</h1>
               <p className="max-[650px]:text-sm text-slate-50 text-left justify-left font-sc-code mb-10 transition-all text-lg">
@@ -266,58 +266,14 @@ function Home() {
         </div>
 
         <div className='max-[400px]:px-4 pt-20 px-10 '>
-        <div className="pb-20 justify-between bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[430px]:p-2 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap">
+        <div className="gap-10 pb-10 justify-between bg-slate-50 bg-opacity-10 rounded-[30px] p-10 max-[430px]:p-2 max-[1100px]:flex-wrap max-[1100px]:justify-center flex flex-cols flex-nowrap">
             <div className="w-[700px]">
-              <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl mb-5">DESIGN SKILLS</h1>
+              <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 max-[650px]:text-xl mb-5">OTHER SKILLS</h1>
               <p className="max-[650px]:text-sm text-slate-50 text-left justify-left font-sc-code mb-10 transition-all text-lg">
-                Adam has a passion for creating designs. He loves to pour his creative idea onto drawings, digital arts and UI designs. He worked on several
-                digital art and graphic design personal projects as well as work projects. Through his journey, he learned some design software and tools that allows him to
-                realize his designs in mind. These tools also helped him to create a wireframe concept for his front-end development.
-                 Here are some of his proficiency using design tools.
-              </p>
-            </div>
-            <div className="border-8 border-yellow-500 bg-yellow-500 bg-opacity-50 rounded-lg">
-              <div className="">
-                <h1 className="px-10 text-center max-[650px]:text-xl max-[350px]:text-sm max-[450px]:text-md mt-5 font-silk text-3xl font-bold text-slate-50">PROFICIENCY:</h1>
-                <h1 className=" px-10 text-center max-[650px]:text-xl max-[350px]:text-sm max-[450px]:text-md  font-silk text-3xl font-bold text-zinc-950">DESIGN TOOLS / SOFTWARE</h1>
-                <ul className="mt-5 list-indside">
-                  <li className="max-[1150px]:w-[300px] max-[460px]:w-[250px] max-[340px]:w-[250px]">
-                    <div className="px-10 py-10 max-[400px]:px-3 flex-wrap gap-10 flex flex-cols justify-between">
-                      <div className="">
-                        <div className="max-[350px]:h-[45px] max-[350px]:w-[45px] max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
-                            <Image alt="javaimage" className="ml-6" src ={photoshop}></Image>
-                        </div>
-                      </div>
-                      <div className="">
-                        <div className="max-[350px]:h-[50px] max-[350px]:w-[50px] max-[1150px]:h-[60px] max-[1150px]:w-[60px] h-[80px] w-[80px]">
-                            <Image alt="pythonimage" className="" src ={illustrator}></Image>
-                        </div>
-    
-                      </div>
-                    </div>
-                  </li>
-                  <li className="max-[1150px]:w-[300px] max-[460px]:w-[250px] max-[340px]:w-[250px]" >
-                    <div className="px-10 py-10 max-[400px]:px-3 flex-wrap flex flex-cols justify-between">
-                      <div className="max-[350px]:h-[45px] max-[350px]:w-[45px] max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
-                          <Image alt="htmlimage" className="ml-6" src ={figma}></Image>
-                      </div>
-                      <div className="max-[350px]:h-[45px] max-[350px]:w-[45px] max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
-                          <Image alt="cssimage" className="" src ={krita}></Image>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="max-[1150px]:w-[300px] max-[460px]:w-[250px] max-[340px]:w-[250px]">
-                    <div className="px-10 py-10 max-[400px]:px-3 flex-wrap flex flex-cols justify-between">
-                      <div className="max-[350px]:h-[45px] max-[350px]:w-[45px] max-[1150px]:h-[55px] max-[1150px]:w-[55px] h-[75px] w-[75px]">
-                          <Image alt="jsimage" className="ml-6" src ={axure}></Image>
-                      </div>
-                      <div className="max-[350px]:h-[40px] max-[350px]:w-[40px] max-[1150px]:h-[50px] max-[1150px]:w-[50px] h-[70px] w-[70px]">
-                          <Image alt="c-image" className="" src ={canva}></Image>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                Other than techinical skills, through his journey Adam also learned a few soft skills that are obtained through
+                his college years. Language skills, project management skills, time management skills, presentation skills and communication skills are important
+                for him to face the job market. Some of his soft skills are also honed through his college subject such as "English for Business" and "Enterpreneurship".
+              </p> 
             </div>
           </div>
         </div>
@@ -331,7 +287,7 @@ function Home() {
 
 
         <div className='max-[400px]:px-4 pt-20 px-10'>
-          <h1 className="text-left font-silk text-5xl font-bold text-yellow-500 mb-10">EXPERIENCES</h1>
+          <h1 className="max-[670px]:text-3xl text-left font-silk text-6xl font-bold text-yellow-500 mb-10">EXPERIENCES</h1>
           <div className='rounded-lg mb-10 bg-yellow-500 h-[10px]'>
           </div>
           <div className='max-[400px]:w-[200px] max-[460px]:w-[300px] max-[855px]:w-[400px] w-[650px] italic w-full font-sc-code text-xl font-bold text-slate-50 mb-10'>
